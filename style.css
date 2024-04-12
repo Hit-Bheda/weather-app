@@ -207,3 +207,18 @@ background: linear-gradient(to right, #F45C43, #EB3349); /* W3C, IE 10+/ Edge, F
         width: 85%;
     }
 }
+@media (max-width:450px) {
+    .card{
+        width: 90%;
+    }
+}
+@media (max-width:435px) {
+    .card{
+        width: 95%;
+    }
+}
+@media (max-width:400px) {
+    .card{
+        width: 100%;
+    }
+}
