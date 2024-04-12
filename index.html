@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="main">
+        <div class="card">
+            <div class="top">
+                <div class="search-bar">
+                    <input type="text" class="search" name="city" id="city" placeholder="Enter City">
+                </div>
+                <div class="search-icon">
+                    <button onclick="findWeather()"><img src="./Assets/search.png" alt=""></button>
+                </div>
+            </div>
+            <div class="mid">
+                <div class="status-icon">
+                    <img src="./Assets/images/clouds.png" alt="" class="img">
+                </div>
+                <div class="temp">
+                    <div class="heading">
+                        <span class="temprature">20</span>
+                        <span>°C</span>
+                    </div>
+                    <div class="city">
+                        <span class="city-name">San Francisco</span>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="humidity">
+                    <div class="humidity-icon">
+                        <img src="./Assets/images/humidity.png" alt="">
+                    </div>
+                    <div class="humidity-content">
+                        <div><span class="hum">50</span><span>%</span></div>
+                        <div>Humidity</div>
+                    </div>
+                </div>
+                <div class="speed">
+                    <div class="speed-icon">
+                        <img src="./Assets/images/wind.png" alt="">
+                    </div>
+                    <div class="speed-content">
+                        <div><span class="wind">50</span><span>km/h</span></div>
+                        <div>Speed</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
